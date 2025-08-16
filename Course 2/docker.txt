@@ -1,0 +1,2 @@
+docker pull {name} --> Download image
+docker run --rm -it {name:version} node --> run node image
