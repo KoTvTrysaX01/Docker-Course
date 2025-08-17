@@ -1,2 +1,4 @@
 docker pull {name} --> Download image
 docker run --rm -it {name:version} node --> run node image
+
+docker run --name myapp_c_nodemon -p 4000:4000 --rm -v "C:\Users\Usuario\Desktop\MyProjects\Docker\Docker-Course\Course 2\api:/app" -v "/app/node_modules"  myapp:nodemon
